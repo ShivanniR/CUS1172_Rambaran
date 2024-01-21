@@ -1,0 +1,86 @@
+
+<html>
+    <head>
+        <title>
+            This is my CUS1172 page.
+        </title>
+
+    </head>
+
+    <body>
+        <!--this is a comment-->
+        <!--
+        query/String after ?
+            firstclass.html?username=shivanni
+        -->
+
+        <form action=" https://www.google.com/search">
+            <input type = "text" placeholder="type your name" name = "q"/>
+            <input type = "submit" value="search" />
+        </form>
+        
+        <h1> <!--this is a heading-->
+            Welcome to my page!
+        </h1>
+
+        <h2>
+            sub heading
+        </h2>
+
+        <h3>
+            sub sub heading
+        </h3>
+        
+        <p> <!-- this is a paragraph-->
+            This is an introductory couse on web development. Check out <a href = "https://www.linkedin.com/in/shivanni-rambaran-676730251/"> my profile. </a>
+        </p>
+
+        <ul> <!--this is an unordered list-->
+            <li>Keys</li>
+            <li>Wallet</li> <!--innerHTML is anything between an opening and closing tag. so for ul, the innerHTML is all the li's, and the innerHTML for the li is wallet, or keys, etc-->
+            <li>Phone</li>
+            <li>Backpack</li>
+            <li>Food</li>
+
+        </ul>
+
+        <ol> <!--this is an ordered/numbered list-->
+            <li>Keys</li>
+            <li>Wallet</li>
+            <li>Phone</li>
+            <li>Backpack</li>
+            <li>Food</li>
+
+        </ol>
+
+
+        <table>
+            <tr> <!--this is the rows in the table so the more tr you use, the more rows-->
+                <th> <!--this is to create columns, th means table header and td means colum-->
+                    Full Name
+                </th>
+                <th>
+                    Signature
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Shivanni
+                </td>
+                <td>
+                    Attend
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+        
+
+        <img width = "25%" src = "https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg "/>
+
+        
+
+    </body>
+
+</html>
