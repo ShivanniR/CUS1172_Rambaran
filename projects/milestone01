@@ -1,0 +1,230 @@
+<html>
+    <head>
+    <!---->
+        <style>
+            .aboutme{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .picture{
+                text-align: center;
+            }
+            .education{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .experience{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .skills{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .interests{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .watching{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .sites{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            .projects{
+                width: 1423px;
+                border: 4px;
+                border-style: dotted;
+                border-color: black;
+                overflow:auto
+            }
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+        <title>
+            Profile Page
+        </title>
+    </head>
+
+    <h1>
+        Profile Page: Shivanni Rambaran
+    </h1>
+   
+
+    <body>
+        <div class="picture">
+            <img width="15%" src="https://i.pinimg.com/736x/d6/1e/8d/d61e8dfa5df1e2e6f4fd1386005b2631.jpg"/>
+       </div>
+        <h1>
+            Menu:
+        </h1>
+        <h2>
+            <ol>
+                <li> <a href="#about-me"> Go to personal information </a><br /></li>
+                <li> <a href="#education"> Go to education </a><br /></li>
+                <li> <a href="#experience"> Go to work experience </a><br /></li>
+                <li> <a href="#skills"> Go to programming skills</a><br /></li>
+                <li> <a href="#interests"> Go to general interests</a><br /></li>
+                <li> <a href="#watching"> Go to favorite song, movie, and tv show </a><br /></li>
+                <li> <a href="#sites"> Go to favorite websites </a><br /></li>
+                <li> <a href="#projects"> Go to projects </a><br /></li>
+            </ol>
+        </h2>
+      
+       
+       
+        <div class="aboutme">
+            <h3 id="about me">
+                Basic Information:
+            </h3>
+            <p>  My name is Shivanni Rambaran. I am 20 years old and a junior at St. John's University (Queens Campus). I am majoring in Computer Science and am looking for opportunities to improve on previously existing skills as well as acquire new skills, both technical and behavioral.
+
+            </p>
+        
+        </div>
+        <div class="education">
+            <h3 id="education">
+                Education: 
+            </h3>
+            <p>
+                Relevant coursework includes: Fundamentals of Programming (1 & 2), Intro to Data Structures, Advanced Data Structures,
+                Web Development, Theory of Programming, Software Design Methods, Discrete Math, Statistics (1 & 2), and Calculus (1, 2, & 3).
+            </p>
+        </div>
+       <div class="experience">
+            <h3 id="experience">
+                Work Experience/Internships:
+             </h3>
+             <p>
+                No work experience or internships. Open to part-time work or internships while in school, full-time during the summer and upon graduation.
+            </p>
+        </div>
+        
+       <div class="skills">
+            <h3 id="skills">
+             Programming Skills:
+            </h3>
+            <ul>
+                <li>
+                    Java - Intermediate
+                </li>
+                <li>
+                    HTML/CSS - Beginner
+                </li>
+                <li>
+                     Python - Beginner
+                 </li>
+            </ul>
+       </div>
+
+       <div class="interests">
+            <h3 id="interests">
+                 General Interests: 
+            </h3>
+            <p>
+                Outside of school, I have a few hobbies. In the summer, I enjoy going to the beach with my cousins and going on afternoon walks,
+                as well as going to festivals in the city! Throughout the year I enjoy going to the gym, both alone and with a friend.
+            </p>
+       </div>
+
+       <div class="watching">
+            <h3 id="watching">
+                Favorite <span style="color:darkorange"> Entertainment:</span>
+             </h3>
+             <p>Search for your favorite songs, movies, or shows too!</p>
+             <form action="https://www.youtube.com/results?search">
+                <input type = "text" placeholder="enter song, movie, or show" name = "q"/>
+                <input type = "submit" value="search" />
+            </form>
+            <table style="width:100%">
+                <tr>
+                    <th>
+                        Song: Sajan Tumse Pyar
+                    </th>
+                    <th>
+                        Movie: Kalank
+                    </th>
+                    <th>
+                        TV Show: The Simpsons
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <iframe width="300" height="200" 
+                            src="https://www.youtube.com/embed/qoq8B8ThgEM?si=ZQn9yMFRfs2fvPyt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                        </iframe>
+                         
+                    </td>
+                    <td>
+                        <iframe width="300" height="200" 
+                            src="https://www.youtube.com/embed/p4Z_ueeT_XQ?si=9jqnCe2bycHzEf6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                        </iframe> 
+                    </td>
+                    <td>
+                        <iframe width="300" height="200" 
+                            src="https://www.youtube.com/embed/gDM-50fOSsA?si=qfjol88JBE4FZYE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                        </iframe>
+                    </td>
+                </tr>
+            </table>
+       </div>
+       
+       <div class="sites">
+            <h3 id="sites">
+               Favorite<span style="color:red"> Websites: </span>
+            </h3>
+            <ol>
+                <li>
+                    <a href="https://www.youtube.com/">Youtube</a> - I enjoy going on Youtube to listen to music or even to have extra help when I'm studying. 
+                </li> 
+                <li>
+                    <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> - FreeCodeCamp is a website where you can complete programming certificates  and learn new programming languages. It can be great for learning or improving previously existing skills. They also have articles and Youtube videos to help guide your work.
+                </li>
+                <li>
+                    <a href="https://www.codedex.io/login">Codedex</a> - Codedex is a website which teaches you how to program in Python, HTML, CSS, and Javascript through some challenges or projects.
+                </li>
+            </ol>
+       </div>
+       
+       <div class="projects">
+            <h3 id="projects">
+                My Projects (continually updated):
+            </h3>
+            <ul>
+                <li>
+                    Online Profile Page: <a href="/Users/marjaganesh/Documents/CUS1172/onlineprofile.html">/Users/marjaganesh/Documents/CUS1172/onlineprofile.html</a> 
+                </li>
+            </ul>
+       </div>
+       
+      <!--figure out where to add form tag and what to use it for-->
+   
+       
+       
+    </body>
+</html>
