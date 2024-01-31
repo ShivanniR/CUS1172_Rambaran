@@ -1,0 +1,85 @@
+
+#menu{
+    font-size: xx-large;
+}
+.aboutme{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    font-size: larger;
+
+}
+#picture{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.education{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    font-size: larger;
+
+}
+.experience{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.skills{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.interests{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.watching{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.sites{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.projects{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+table, th, td{
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+h2 {
+    margin: 40px;
+}
+input{
+  width: 15%;  
+  margin-bottom: 15px;
+}
