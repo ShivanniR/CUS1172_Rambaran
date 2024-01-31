@@ -9,6 +9,22 @@
   * {
     box-sizing: border-box;
   }
+
+
+  .aboutme{
+    width: 1423px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    content: "";
+    clear: both;
+
+}
   
   /* Create four equal columns that floats next to each other */
   table, th, td{
