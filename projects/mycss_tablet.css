@@ -1,9 +1,15 @@
-@media print{.screen_only{display: none;}} 
+@media print{
+  .screen_only{
+    display: none;
+  }
+
+}
+
     
 
-@media (min-width: 760px){
+@media (max-width: 760px){
   body{
-    background-color: bisque;
+    background-color:lightgrey;
   }
 
   * {
@@ -18,34 +24,97 @@
     margin-bottom: 10px;
     font-size: larger;
     float: left;
-    width: 25%;
-    padding: 20px;
+    width: 75%;
+    padding: 10px;
     content: "";
     clear: both;
 
   }
+  .education{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+    clear: both;
+  }
+
+  .experience{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+    clear: both;
+  }
+  .skills{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+    clear: both;
+  }
+  .interests{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+    clear: both;
+  }
+  .watching{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+    clear: both;
+  }
+  .sites{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+  }
+  .projects{
+    margin-bottom: 10px;
+    font-size: larger;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    content: "";
+    clear: both;
+  }
+
   
   /* Create four equal columns that floats next to each other */
   table, th, td{
     float: left;
-    width: 25%;
-    padding: 20px;
-    content: "";
+    width: 75%;
+    padding: 10px;
     display: table;
     clear: both;
 } 
 
   /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 600px) {
     .th {
-      width: 50%;
+      width: 75%;
     }
   }
   
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .td {
-      width: 100%;
+      width: 75%;
     }
   }
 }
