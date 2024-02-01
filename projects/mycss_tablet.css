@@ -1,15 +1,14 @@
-@media only screen and (orientation: portrait) {
-    body {
-      background-color: bisque;
-    }
-  }
+@media print{.screen_only{display: none;}} 
+    
 
- 
+@media (min-width: 760px){
+  body{
+    background-color: bisque;
+  }
 
   * {
     box-sizing: border-box;
   }
-
 
   .aboutme{
     width: 1423px;
@@ -24,7 +23,7 @@
     content: "";
     clear: both;
 
-}
+  }
   
   /* Create four equal columns that floats next to each other */
   table, th, td{
@@ -49,3 +48,4 @@
       width: 100%;
     }
   }
+}
