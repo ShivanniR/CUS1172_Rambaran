@@ -1,0 +1,23 @@
+#body{
+    background-color: rgb(123, 63, 0)
+}
+
+#titleHeading{
+    text-align: center;
+    font-weight: bold;
+    color:rgb(234, 221, 202);
+}
+#listImage{
+    text-align: center;
+    margin: 10px auto;
+
+}
+li{
+    background-color: rgb(234, 221, 202);
+    text-align: left;
+    color:rgb(139, 69, 19);
+}
+p{
+    text-align: left;
+    font-weight: bold;
+}
