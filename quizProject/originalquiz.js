@@ -184,3 +184,4 @@ const renderView = (data, view) => {
     var html = template(data);
     return html;
 }
+
