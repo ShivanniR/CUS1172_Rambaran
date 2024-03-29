@@ -56,7 +56,7 @@
       "correctChoice": "B",
       "explanation": "B is the correct answer because in the first picture the person initializes the ArrayList with <String, Integer>, but an arrayList can only use one or the other, not both arguments."
     }
-    }
+    
   
       
         
