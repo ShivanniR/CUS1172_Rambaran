@@ -1,61 +1,65 @@
 {
   "quizDetails": [
     {
-    "id": 1,
-    "title": "Java Quiz"
-  },
+      "id": 1,
+      "title": "Java Quiz"
+    }
   ],
   "questionsQ1": [
     {
       "id": 1,
       "type": "multipleChoice",
-      "prompt": "Variables used to store decimal values, such as 3.75, can be of type float or ______________ ."
+      "prompt": "Variables used to store decimal values, such as 3.75, can be of type float or ______________ .",
       "choices": [
         "double",
         "String",
         "int",
         "None of the above"
       ],
-      "correctChoice": "A"
+      "correctChoice": "A",
       "explanation": "A type double in Java can store numbers with decimals. An int can only store whole numbers and a String stores words."
     },
     {
       "id": 2,
       "type": "multipleChoice",
-      "prompt": "What syntax would you use to initialize an integer?"
+      "prompt": "What syntax would you use to initialize an integer?",
       "choices": [
         "int x = 9.5;",
         "int x = 2",
         "int x = 4;",
         "double x = 3.0;"
       ],
-      "correctChoice": "C"
+      "correctChoice": "C",
       "explanation": "C is correct because a variable with type integer cannot be a decimal and it must have a semi-colon at the end."
     },
     {
       "id": 3,
       "type": "narrative",
-      "prompt": "Methods that do NOT return a value have a return type of _____?"
+      "prompt": "Methods that do NOT return a value have a return type of _____?",
       "correctChoice": "void",
       "explanation": "If a method is void, it means there is no value returned. Like a set-method, you can set something but unless you use a get-method, nothing is returned."
     },
     {
       "id": 4,
-      "type": "narrative"
-      "prompt": "From the following code, what would the output look like if I printed the variable z? int x = 10; int y = 5; int z = x/y;"
+      "type": "narrative",
+      "prompt": "From the following code, what would the output look like if I printed the variable z? int x = 10; int y = 5; int z = x/y;",
       "correctChoice": "5",
-      "explanation": "In this example the variable z is taking two variables, x and y, which have been previously initialized woth values and dividing them. Knowing this, all you need to do is simple arithmetic to get the answer!"
+      "explanation": "In this example, the variable z is taking two variables, x and y, which have been previously initialized with values and dividing them. Knowing this, all you need to do is simple arithmetic to get the answer!"
     },
     {
       "id": 5,
-      "type": "Which image shows the correct way to initialize an ArrayList?"
+      "type": "imageSelection",
+      "prompt": "Which image shows the correct way to initialize an ArrayList?",
       "choices": [
         "incorrectImage.png",
         "correctImage.png"
-      ]
+      ],
       "correctChoice": "B",
-      "explanation": "B is the correct answer because in the first picture the person initializes the ArrayList with <String, Integer>, but an arrayList can only use one or the other, not both arguments."
+      "explanation": "B is the correct answer because in the first picture, the person initializes the ArrayList with <String, Integer>, but an ArrayList can only use one or the other, not both arguments."
     }
+  ]
+}
+
     
   
       
