@@ -1,0 +1,69 @@
+#title{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+/* Style for the title */
+#initialScreen {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Style for the quiz question */
+#question {
+    margin-bottom: 20px;
+}
+
+/* Style for the choices */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Style for the correct answer count */
+#counter {
+    font-weight: bold;
+}
+
+/* Style for the correct message */
+#correct {
+    color: green;
+}
+
+/* Style for the incorrect message */
+#incorrect {
+    color: red;
+}
+
+/* Style for the buttons */
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the container and jumbotron */
+.container {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+/* Style for the body */
+body {
+    background-color: #74c6d5;
+    font-family: Arial, sans-serif;
+}
