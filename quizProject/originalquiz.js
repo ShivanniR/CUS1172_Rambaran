@@ -171,7 +171,7 @@ const backEndRestAPI = async (quizID, qid, view) => {
         const data = await response.json();
         console.log(data);
         const html_element = renderView(data, view);
-        element.innerHTML = html_element;
+        document.querySelector("#display-data").innerHTML = html_element;
     } catch (error) {
         console.error('Error fetching data:', error);
     }
